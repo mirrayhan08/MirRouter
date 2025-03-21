@@ -178,7 +178,7 @@ CONFIG_VIRTIO_BLK=y
 CONFIG_BLK_MQ_VIRTIO=y
 CONFIG_BLK_DEV_SD=y
 CONFIG_SATA_AHCI=y
-CONFIG_FB_BACKLIGHT=y
+# CONFIG_FB_BACKLIGHT=y
 # CONFIG_POSIX_TIMERS is not set
 # CONFIG_PRINTK is not set
 # CONFIG_BUG is not set
@@ -580,7 +580,7 @@ CONFIG_FUNCTION_ALIGNMENT=16
 # end of General architecture-dependent options
 
 CONFIG_RT_MUTEXES=y
-CONFIG_MODULES=y   
+# CONFIG_MODULES=y   
 # CONFIG_BLOCK is not set
 CONFIG_PREEMPT_NOTIFIERS=y
 CONFIG_INLINE_SPIN_UNLOCK_IRQ=y
@@ -1568,7 +1568,7 @@ CONFIG_PSTORE_RAM=y
 # Remove Unused Filesystems
 #
 
-CONFIG_EXT4_FS=y       # Disable ext4 support
+# CONFIG_EXT4_FS=y       # Disable ext4 support
 # CONFIG_BTRFS_FS is not set
 # CONFIG_XFS_FS is not set
 # CONFIG_F2FS_FS is not set

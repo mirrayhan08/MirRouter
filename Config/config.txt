@@ -175,6 +175,7 @@ CONFIG_FSCACHE=y
 CONFIG_FHANDLE=y
 CONFIG_VIRTIO_PCI=y
 CONFIG_VIRTIO_BLK=y
+CONFIG_VIRTIO_NET=y
 CONFIG_BLK_MQ_VIRTIO=y
 CONFIG_BLK_DEV_SD=y
 CONFIG_SATA_AHCI=y
@@ -363,7 +364,6 @@ CONFIG_ARCH_HAS_ADD_PAGES=y
 # CONFIG_SUSPEND is not set
 # CONFIG_PM is not set
 CONFIG_ARCH_SUPPORTS_ACPI=y
-# CONFIG_ACPI is not set
 
 #
 # CPU Frequency scaling
@@ -374,7 +374,6 @@ CONFIG_ARCH_SUPPORTS_ACPI=y
 #
 # CPU Idle
 #
-# CONFIG_CPU_IDLE is not set
 # end of CPU Idle
 # end of Power management and ACPI options
 
@@ -392,7 +391,6 @@ CONFIG_ISA_DMA_API=y
 # CONFIG_IA32_EMULATION is not set  # Disable 32-bit emulation
 # CONFIG_X86_X32_ABI is not set
 # CONFIG_PCI is not set           # Disable PCI if not needed (VirtualBox uses virtio)
-# CONFIG_ISA_DMA_API is not set
 # CONFIG_ACPI is not set         # Disable ACPI for VM
 # CONFIG_SUSPEND is not set
 # CONFIG_PM is not set           # Disable power management
@@ -1086,7 +1084,6 @@ CONFIG_WAN=y
 # Input Device Drivers
 #
 CONFIG_INPUT_KEYBOARD=y
-CONFIG_KEYBOARD_ATKBD=y
 # CONFIG_KEYBOARD_LKKBD is not set
 # CONFIG_KEYBOARD_NEWTON is not set
 # CONFIG_KEYBOARD_OPENCORES is not set
@@ -1094,7 +1091,6 @@ CONFIG_KEYBOARD_ATKBD=y
 # CONFIG_KEYBOARD_SUNKBD is not set
 # CONFIG_KEYBOARD_XTKBD is not set
 CONFIG_INPUT_MOUSE=y
-CONFIG_MOUSE_PS2=y
 CONFIG_MOUSE_PS2_ALPS=y
 CONFIG_MOUSE_PS2_BYD=y
 CONFIG_MOUSE_PS2_LOGIPS2PP=y

@@ -199,7 +199,8 @@ CONFIG_EVENTFD=y
 # CONFIG_RSEQ is not set
 # CONFIG_CACHESTAT_SYSCALL is not set
 # CONFIG_PC104 is not set
-# CONFIG_KALLSYMS is not set
+CONFIG_BUSYBOX=y
+CONFIG_KALLSYMS=y
 CONFIG_ARCH_HAS_MEMBARRIER_SYNC_CORE=y
 CONFIG_HAVE_PERF_EVENTS=y
 CONFIG_GUEST_PERF_EVENTS=y
@@ -1567,7 +1568,7 @@ CONFIG_PSTORE_RAM=y
 # Remove Unused Filesystems
 #
 
-# CONFIG_EXT4_FS=y       # Disable ext4 support
+CONFIG_EXT4_FS=y       # Disable ext4 support
 # CONFIG_BTRFS_FS is not set
 # CONFIG_XFS_FS is not set
 # CONFIG_F2FS_FS is not set
